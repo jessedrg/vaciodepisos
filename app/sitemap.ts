@@ -24,6 +24,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: "monthly",
         priority: 0.7,
       })
+      entries.push({
+        url: `${BASE_URL}/mudanzas/${city}`,
+        lastModified: new Date(),
+        changeFrequency: "monthly",
+        priority: 0.7,
+      })
     }
   }
 
