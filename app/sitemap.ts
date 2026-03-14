@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 import { CITIES_SPAIN } from "@/lib/cities"
 
-const BASE_URL = "https://www.rapidfix.es"
+const BASE_URL = "https://www.elvaciodepisos.com"
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [

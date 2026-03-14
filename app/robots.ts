@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://www.rapidfix.es/sitemap.xml",
+    sitemap: "https://www.elvaciodepisos.com/sitemap.xml",
   }
 }
