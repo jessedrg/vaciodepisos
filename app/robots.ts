@@ -8,6 +8,9 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://elvaciodepisos.com/sitemap.xml",
+    sitemap: [
+      "https://elvaciodepisos.com/sitemap.xml",
+      "https://elvaciodepisos.com/sitemap-secundario.xml",
+    ],
   }
 }
